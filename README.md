@@ -86,10 +86,11 @@ Or in interactive debuggers, an expandable object tree:
 In the Metro bundler terminal / certain debugger environments, logging a raw JavaScript object outputs:
 
 ```text
-LOG  [object Object]
+LOG  {"age": 19, "course": "React-Native", "name": "Nishit"}
 ```
 
-or an unformatted/collapsed single-line representation where nested properties cannot be inspected directly without wrapping the object in `JSON.stringify(student, null, 2)`.
+![Console Output](./assets/console-output.png)
+
 
 ---
 
